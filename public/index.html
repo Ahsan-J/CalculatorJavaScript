@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Simple Calculator</title>
+    <link rel="stylesheet" href="css\paper_bootstrap.css">
+    <link rel="stylesheet" href="css\style01.css">
+</head>
+<body>
+    <div class="container">`
+       <h2>JavaScript Simple Calculator</h2>
+       <br>
+       <table>
+         <tr>
+           <td colspan="4"><p id = "screen">0</p></td>
+         </tr>
+         <tr>
+           <td onclick = "cls();">C</td>
+           <td></td>
+           <td></td>
+           <td onclick = "getValue(this)">*</td>
+         </tr>
+         <tr>
+           <td onclick = "getValue(this)">7</td>
+           <td onclick = "getValue(this)">8</td>
+           <td onclick = "getValue(this)">9</td>
+           <td onclick = "getValue(this)">/</td>
+         </tr>
+         <tr>
+           <td onclick = "getValue(this)">4</td>
+           <td onclick = "getValue(this)">5</td>
+           <td onclick = "getValue(this)">6</td>
+           <td onclick = "getValue(this)">-</td>
+         </tr>
+         <tr>
+           <td onclick = "getValue(this)">1</td>
+           <td onclick = "getValue(this)">2</td>
+           <td onclick = "getValue(this)">3</td>
+           <td onclick = "getValue(this)">+</td>
+         </tr>
+         <tr>
+           <td></td>
+           <td onclick = "getValue(this)">0</td>
+           <td onclick = "getValue(this)">.</td>
+           <td onclick = "getValue(this)">=</td>
+         </tr>
+       </table>
+<p id="footer">All rights Reserved</p>
+</div>
+<script src = "js/app.js"></script>
+<script src = "js/jquery.js"></script>
+<script src = "js/bootstrap.js"></script>
+
+</body>
+</html>
